@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+
+.blog-container {
+  margin-top: 25px;
+  width: 99%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  flex-direction: column;
+}

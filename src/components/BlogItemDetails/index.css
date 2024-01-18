@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+
+* {
+  border: 1px solid red;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-family: Roboto;
+  margin: 10% 10%;
+  margin-top: 5%;
+}
+.title-article {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.page-detail-container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.user-section {
+  display: flex;
+  align-self: flex-start;
+}
+
+.avatar-img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.content {
+  font-size: 28px;
+}
