@@ -45,10 +45,12 @@ class BlogItemDetails extends Component {
     const {title, author, avatarUrl, content, imageUrl} = blogData
     return (
       <div className="page-container">
-        {isLoading && (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
-        )}
-        <div className="page-detail-container">
+        <div data-testid="loader">
+          {isLoading && (
+            <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          )}
+        </div>
+        <div className={isLoading ? 'hide-container' : 'page-detail-container'}>
           <p className="title-article">{title}</p>
           <div className="user-section">
             <img src={avatarUrl} className="avatar-img" alt="" />

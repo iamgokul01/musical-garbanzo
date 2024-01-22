@@ -44,3 +44,7 @@
 .content {
   font-size: 28px;
 }
+
+.hide-container {
+  display: none;
+}
